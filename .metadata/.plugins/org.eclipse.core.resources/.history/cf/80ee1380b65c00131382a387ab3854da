@@ -28,9 +28,6 @@ public class Dice {
 		System.out.println("RealDiceでの出力");
 		//RealDiceはDiceIfを実装しているのでRealDiceでもあるが、DiceIfでもある
 		dice.rolls(new RealDice());
-		//課題１の分
-		System.out.println("ZeroDiceでの出力");
-		dice.rolls(new ZeroDice());
 	}
 	
 	//復習：メソッドの宣言＝「アクセス修飾子 返り値 メソッド名(引数[型 変数名, ....])」という形で宣言する

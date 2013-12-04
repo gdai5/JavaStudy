@@ -1,0 +1,30 @@
+package Sample;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Kadai {
+	public static void main(String[] args) {
+		new Main().execute();
+	}
+	
+	public void execute() {
+		List list = new ArrayList();
+		list.add("a");
+		list.add("b");
+		for (int i = 0; i < list.size(); i++) {
+			String s = (String)list.get(i);
+			System.out.print(s + " ");
+		}
+		System.out.println("");
+		list = new LinkedList();
+		list.add("c");
+		list.add("d");
+		for (int i = 0; i < list.size(); i++) {
+			String s = (String)list.get(i);
+			System.out.print(s + " ");
+		}
+	}
+
+}
