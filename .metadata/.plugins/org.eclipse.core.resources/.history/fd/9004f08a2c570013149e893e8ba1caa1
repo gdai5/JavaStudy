@@ -1,0 +1,7 @@
+package Dorakue;
+
+public class ButiSuraimu implements Character{
+	public int Attack() {
+		return 2;
+	}
+}

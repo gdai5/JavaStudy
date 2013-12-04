@@ -1,0 +1,7 @@
+package Dorakue;
+
+public interface Character {
+	int HP = 10;
+	int MP = 5;
+	public int Attack();
+}

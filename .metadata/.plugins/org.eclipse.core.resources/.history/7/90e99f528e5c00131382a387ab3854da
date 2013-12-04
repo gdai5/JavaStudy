@@ -1,0 +1,18 @@
+package Dice;
+
+public class FakeDice implements DiceIf{
+	
+	int[] values = {2, 4, 5, 3, 6, 1};
+	int current = 0;
+	
+	public int roll() {
+		//currentに１を足す
+		current++;
+		//配列は０からスタートするので、今回はvaluesは０〜５番目までの長さしかない
+		//そのため、values[6]と入力した場合は「IndexOutOfBoundsException」というものが投げられる
+		if(current == 6) {
+			current = 0;
+		}
+		return this.values[current];
+	}
+}

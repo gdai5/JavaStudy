@@ -1,0 +1,11 @@
+package Dorakue;
+
+public class ButiSuraimu implements Character{
+	public int Attack() {
+		return 2;
+	}
+	
+	public void Diffence(int at) {
+		at = at / 2;
+	}
+}

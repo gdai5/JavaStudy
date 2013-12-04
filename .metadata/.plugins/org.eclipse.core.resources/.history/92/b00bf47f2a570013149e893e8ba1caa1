@@ -1,0 +1,11 @@
+
+public class Dice implements DiceIf{
+	
+	public int roll() {
+		return 1;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

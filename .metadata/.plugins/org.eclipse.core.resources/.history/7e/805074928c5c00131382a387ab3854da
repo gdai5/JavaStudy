@@ -1,0 +1,5 @@
+package Dice;
+
+public interface DiceIf {
+	public int roll();
+}

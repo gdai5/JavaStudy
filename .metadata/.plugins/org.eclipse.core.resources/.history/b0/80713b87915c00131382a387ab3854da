@@ -1,0 +1,25 @@
+package Dice;
+
+public class Dice {
+	//フィールド
+	//実際に使うわけではないが、少し分かりやすくするために設置
+	int a = 0;
+	int b = 3;
+	boolean flag = true;
+	String str = "本日は晴天なり";
+	
+	public static void main(String[] args) {
+		//分かりにくいと思うが、まずDice型の変数diceを生成
+		//具体的に言うと
+		Dice dice = new Dice();
+		System.out.println("FakeDiceでの出力");
+		System.out.println("RealDiceでの出力");
+	}
+	
+	public void rolls(DiceIf dice) {
+		for(int i = 0; i < 6; i++) {
+			System.out.println(dice.roll());
+		}
+	}
+	
+}

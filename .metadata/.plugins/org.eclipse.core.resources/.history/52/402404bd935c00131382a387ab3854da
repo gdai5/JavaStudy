@@ -1,0 +1,28 @@
+package Dice;
+/**
+ * ここではDiceと違って、FakeDiceとRealDiceにインターフェイスを実装しなかった時のことを書く
+ */
+public class Dice2 {
+	
+	public static void main(String[] args) {
+		Dice2 dice = new Dice2();
+		System.out.println("FakeDiceでの出力");
+		dice.rolls1(new FakeDice());
+		System.out.println("RealDiceでの出力");
+		dice.rolls2(new RealDice());
+		
+	}
+	
+	public void rolls1(FakeDice fdice) {
+		for(int i = 0; i < 6; i++) {
+			System.out.println(fdice.roll());
+		}
+	}
+	
+	public void rolls2(RealDice rdice) {
+		for(int i = 0; i < 6; i++) {
+			System.out.println(rdice.roll());
+		}
+	}
+
+}

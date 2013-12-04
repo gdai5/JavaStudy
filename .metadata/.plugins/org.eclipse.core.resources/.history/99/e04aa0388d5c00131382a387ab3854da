@@ -1,0 +1,9 @@
+package Dice;
+
+public class FakeDice implements DiceIf{
+	
+	public int roll(int number) {
+		int[] sai = {2, 4, 5, 3, 6, 1};
+		return sai[number];
+	}
+}
