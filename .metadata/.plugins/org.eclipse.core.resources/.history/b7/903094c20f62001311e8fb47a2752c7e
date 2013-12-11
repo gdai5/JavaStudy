@@ -1,0 +1,11 @@
+package FamilyCount;
+
+public class Main {
+	public static void main(String[] args) {
+		//クラスフィールドの初期化
+		//クラスフィールドであるため、最初っからこのように直接呼び出してあげることができる
+		Investigator.humancunter  = 0;
+		Investigator.familycunter = 0;
+		
+	}
+}

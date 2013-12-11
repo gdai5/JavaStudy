@@ -1,0 +1,29 @@
+package FamilyCount2;
+
+public class FamilyB {
+	// フィールド
+	// 家族Bにおける男性の数
+	private int man;
+	// 家族Bにおける女性の数
+	private int woman;
+
+	FamilyB(int man, int woman) {
+		// 復習
+		// this.manとmanの違いはどうだったでしょうか？
+		this.man = man;
+		this.woman = woman;
+	}
+
+	public int HumanCount(int humancunter) {
+		humancunter += man + woman;
+		return humancunter;
+	}
+
+	// 家族Aは１つの家族であるので、家族数をカウントしている変数に１を足している
+	// クラスフィールドにしていないため、このように書かなければいけなくなった
+	public int FamilyCount(int familycunter) {
+		familycunter += 1;
+		return familycunter;
+	}
+
+}

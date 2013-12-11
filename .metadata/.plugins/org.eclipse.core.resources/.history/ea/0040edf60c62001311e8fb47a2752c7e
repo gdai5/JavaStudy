@@ -1,0 +1,21 @@
+package FamilyCount;
+
+//ある家族Aを表すクラス
+public class FamilyA {
+	//家族Aにおける男性の数
+	private int man;
+	//家族Aにおける女性の数
+	private int woman;
+	
+	/**
+	 * （学習ポイント）コンストラクター
+	 * コンストラクターとは、そのクラスが生成されたのと同時に実行される特別なメソッドのこと
+	 * 具体的に使われるクラスはMain.javaに書かれている
+	 */
+	public FamilyA(int man, int woman) {
+		//
+		this.man = man;
+		this.woman = woman;
+	}
+	
+}

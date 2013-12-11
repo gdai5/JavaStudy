@@ -1,0 +1,25 @@
+package FamilyCount;
+
+public class FamilyB {
+	//家族Bにおける男性の数
+	private int man;
+	//家族Bにおける女性の数
+	private int woman;
+
+	public FamilyB(int man, int woman) {
+		this.man = man;
+		this.woman = woman;
+	}
+
+	// 家族Aの人数を数えている
+	public void HumanCount() {
+		// このように書けることがstatic(静的変数＝クラス変数)の特徴
+		Investigator.humancunter += man + woman;
+	}
+
+	// 家族Aは１つの家族であるので、家族数をカウントしている変数に１を足している
+	public void FamilyCount() {
+		// このように書けることがstatic(静的変数＝クラス変数)の特徴
+		Investigator.familycunter += 1;
+	}
+}

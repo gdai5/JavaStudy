@@ -6,4 +6,11 @@
 <fullyQualifiedTypeName name="DiceIf"/>
 <fullyQualifiedTypeName name="Dice"/>
 <fullyQualifiedTypeName name="Dorakue.Character"/>
+<fullyQualifiedTypeName name="Dice.FakeDice"/>
+<fullyQualifiedTypeName name="Dice.RealDice"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Dice.DiceIf"/>
+<fullyQualifiedTypeName name="Dice.ZeroDice"/>
 </qualifiedTypeNameHistroy>

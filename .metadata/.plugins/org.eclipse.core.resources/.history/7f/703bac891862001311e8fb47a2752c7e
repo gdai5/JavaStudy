@@ -1,0 +1,7 @@
+package DragonQuest;
+
+public class Yuusya extends Character{
+	Yuusya(String name, int attack_point, int defense_point) {
+		super(name, attack_point, defense_point);
+	}
+}

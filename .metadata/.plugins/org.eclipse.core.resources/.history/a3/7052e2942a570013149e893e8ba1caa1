@@ -1,5 +1,0 @@
-
-public interface DiceIf {
-	//サイコロを投げるという概念を抽出
-	public int roll();
-}

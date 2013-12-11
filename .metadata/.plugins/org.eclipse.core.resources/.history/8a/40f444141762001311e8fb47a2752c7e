@@ -1,0 +1,11 @@
+package DragonQuest;
+
+//ドラクエで言う、勇者や魔法使いなどのキャラクターを指すクラス
+public class Character {
+	//キャラの名前
+	private String name;
+	//攻撃力
+	private int attack_point;
+	//防御力
+	private int diffence_point;
+}
