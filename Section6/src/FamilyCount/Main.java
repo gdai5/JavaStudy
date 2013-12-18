@@ -17,6 +17,6 @@ public class Main {
 		
 		family_b.HumanCount();
 		family_b.FamilyCount();
-		System.out.println(Investigator.familycunter+"世帯の合計人数 ＝ " + Investigator.humancunter);
+		System.out.println(Investigator.familycunter + "世帯の合計人数 ＝ " + Investigator.humancunter);
 	}
 }

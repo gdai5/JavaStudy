@@ -1,9 +1,0 @@
-package FamilyCount;
-
-public class Main {
-	public static void main(String[] args) {
-		//クラス変数＝静的変数を初期化
-		Investigator.humancunter  = 0;
-		Investigator.familycunter = 0;
-	}
-}

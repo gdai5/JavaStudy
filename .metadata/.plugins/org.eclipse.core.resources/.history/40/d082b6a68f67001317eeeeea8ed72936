@@ -1,0 +1,12 @@
+package SampleAccesser;
+
+public class StudentA {
+	public static void main(String[] args) {
+		Documents documents = new Documents();
+		System.out.println(documents.a);
+		System.out.println(documents.b);
+		System.out.println(documents.c);
+		//プライベートだからアクセスできない
+		//System.out.println(documents.d);
+	}
+}

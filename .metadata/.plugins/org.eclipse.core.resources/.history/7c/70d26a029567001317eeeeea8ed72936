@@ -1,0 +1,10 @@
+package GeterSeter;
+
+public class Main {
+	public static void main(String[] args) {
+		SampleGeterSeter sgs = new SampleGeterSeter();
+		sgs.setNum(5);
+		System.out.println(sgs.getNum());
+	}
+
+}

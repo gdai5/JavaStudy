@@ -13,4 +13,23 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="Dice.DiceIf"/>
 <fullyQualifiedTypeName name="Dice.ZeroDice"/>
+<fullyQualifiedTypeName name="FamilyCount.FamilyA"/>
+<fullyQualifiedTypeName name="FamilyCount.FamilyB"/>
+<fullyQualifiedTypeName name="FamilyCount.Investigator"/>
+<fullyQualifiedTypeName name="FamilyCount2.Investigator"/>
+<fullyQualifiedTypeName name="FamilyCount2.FamilyA"/>
+<fullyQualifiedTypeName name="FamilyCount2.FamilyB"/>
+<fullyQualifiedTypeName name="DragonQuest.Yuusya"/>
+<fullyQualifiedTypeName name="DragonQuest.Magician"/>
+<fullyQualifiedTypeName name="DragonQuest.Character"/>
+<fullyQualifiedTypeName name="java.awt.GradientPaint"/>
+<fullyQualifiedTypeName name="SampleExtends.GreatPerson"/>
+<fullyQualifiedTypeName name="SampleExtends.Hamilton"/>
+<fullyQualifiedTypeName name="SampleExtends.Main"/>
+<fullyQualifiedTypeName name="SampleAccesser.Accesser1"/>
+<fullyQualifiedTypeName name="SampleAccesser2.Accesser2"/>
+<fullyQualifiedTypeName name="SampleAccesser.Documents"/>
+<fullyQualifiedTypeName name="GeterSeter.SampleGeterSeter"/>
+<fullyQualifiedTypeName name="Challenge.Character"/>
+<fullyQualifiedTypeName name="Challenge.Yuusya"/>
 </qualifiedTypeNameHistroy>

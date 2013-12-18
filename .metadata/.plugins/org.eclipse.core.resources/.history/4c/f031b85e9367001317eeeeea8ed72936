@@ -1,0 +1,10 @@
+package SampleAccesser2;
+
+import SampleAccesser.*;
+
+public class Accesser2 extends Documents{
+	public void access() {
+		this.a = 29;
+		this.b = 23;
+	}
+}

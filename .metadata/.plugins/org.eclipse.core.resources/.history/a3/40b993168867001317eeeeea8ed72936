@@ -1,0 +1,6 @@
+package SampleExtends;
+
+//GreatPersonクラスを継承するクラス
+public class Hamilton extends GreatPerson{
+	
+}

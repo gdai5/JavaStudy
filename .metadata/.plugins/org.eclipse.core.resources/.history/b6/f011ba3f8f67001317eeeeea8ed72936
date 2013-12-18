@@ -1,0 +1,18 @@
+package SampleAccesser;
+
+//アクセス修飾子の勉強
+public class Documents {
+	//どこからでもアクセスを許したい場合に定義
+	public int    a = 0;
+	//サブクラスでも使いたいときに定義
+	protected int b = 1;
+	//説明を始めると長くなる
+	int           c = 2;
+	//自分自身（ここではDocumentsクラス内を指す）以外では使えない
+	private int   d = 3;
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}

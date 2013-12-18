@@ -1,9 +1,0 @@
-package Dice;
-
-public class Dice2 {
-	
-	public static void main(String[] args) {
-		
-	}
-
-}

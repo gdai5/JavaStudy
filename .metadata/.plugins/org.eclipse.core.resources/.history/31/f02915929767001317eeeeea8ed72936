@@ -1,0 +1,21 @@
+package Challenge;
+//こいつは、全てのキャラクターの共通要素を書く
+public class Character {
+	private String name;
+	private int hp;
+	private int mp;
+	private int attack;
+	private int diffence;
+	
+	
+	Character(String name, int hp, int mp, int attack, int diffence) {
+		//キャラクターにパラメータを与えるように書け
+		//ヒント：Section6のDragonQuestパッケージの中にあるクラス
+	}
+	
+	public void Status() {
+		System.out.println("名前：" + this.name);
+		System.out.println("名前："this.hp);
+	}
+	
+}

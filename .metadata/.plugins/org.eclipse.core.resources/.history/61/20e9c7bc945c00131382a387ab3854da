@@ -1,6 +1,0 @@
-//自分が所属しているパッケージを宣言している
-package Sample;
-
-public class Main {
-
-}

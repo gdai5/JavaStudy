@@ -1,0 +1,10 @@
+package SampleAccesser;
+
+//他ファイル・サブクラス
+public class Accesser1 extends Documents{
+	public void access() {
+		this.a = 99;
+		this.b = 98;
+		this.c = 97;
+	}
+}

@@ -1,0 +1,13 @@
+package SampleAccesser;
+
+//アクセス修飾子の勉強
+public class Documents {
+	public int    a = 0;
+	protected int b = 1;
+	int           c = 2;
+	private int   d = 3;
+}
+
+public class File() {
+	
+}

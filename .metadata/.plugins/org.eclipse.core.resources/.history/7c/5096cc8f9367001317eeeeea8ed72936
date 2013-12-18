@@ -1,0 +1,12 @@
+package SampleAccesser2;
+
+import SampleAccesser.*;
+
+public class Accesser2 extends Documents{
+	public static void main(String[] args) {
+		Accesser2 ac2 = new Accesser2();
+		//違うクラス、違うパッケージのためこの２つまでしかアクセスできない
+		System.out.println(ac2.a);
+		System.out.println(ac2.b);
+	}
+}
