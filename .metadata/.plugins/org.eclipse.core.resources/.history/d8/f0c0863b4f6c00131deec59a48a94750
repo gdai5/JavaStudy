@@ -1,0 +1,15 @@
+package AbstractClass;
+
+public class Yuusya extends Character{
+	
+	protected String name;
+	protected int attack;
+	
+	Yuusya(String name, int attack) {
+		this.name = name;
+		this.attack = attack;
+	}
+	
+	public void SpecialAttack();
+	
+}

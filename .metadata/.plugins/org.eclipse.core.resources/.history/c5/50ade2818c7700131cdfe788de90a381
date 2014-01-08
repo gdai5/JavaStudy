@@ -1,0 +1,19 @@
+package JavaSwing;
+
+import javax.swing.JFrame;
+
+//基本は、Mainメソッドが含まれるクラスが以下のような形を取る
+public class MajorJFrameClass extends JFrame{
+	static final int serialVersionUID = -6849794470754667710L;
+	
+	public static void main(String[] args) {
+		MajorJFrameClass frame = new MajorJFrameClass();
+		frame.setVisible(true);
+	}
+	
+	public MajorJFrameClass() {
+		setTitle("オッペケペー");
+		setSize(800, 400);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}

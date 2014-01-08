@@ -1,0 +1,38 @@
+package OverLoad;
+
+/**
+ * オーバーロードの練習
+ * オーバーロード：メソッドに渡す引数を変えることで、同じ名前のメソッドが大量に作れちゃう！
+ * 親戚：オーバーライド
+ */
+public class TestOverLoad {
+	class PrintApp {
+		public void printInt(int v) {
+            Integer i = Integer.valueOf(v);
+            String s = i.toString();
+            System.out.println(s);
+        }
+        public void printDouble(double v) {
+            Double d = Double.valueOf(v);
+            String s = d.toString();
+            System.out.println(s);
+        }
+        public void printBoolean(boolean v) {
+            Boolean b = Boolean.valueOf(v);
+            String s = b.toString();
+            System.out.println(s);
+        }
+        public void printObject(Object v) {
+            String s = v.toString();
+            System.out.println(s);
+        }
+    }
+    public static void main(String[] args) {
+    	
+        TestOverLoad.PrintApp app = new TestOverLoad().new PrintApp();
+        app.printInt(1);
+        app.printDouble(2.0);
+        app.printBoolean(false);
+        app.printObject(new Object());
+    }
+}

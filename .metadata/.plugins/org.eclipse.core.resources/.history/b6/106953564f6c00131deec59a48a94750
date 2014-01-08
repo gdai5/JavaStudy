@@ -1,0 +1,14 @@
+package AbstractClass;
+
+public abstract class Character {
+	
+	//具体的なメソッド
+	public void Attack(String name, int attack) {
+		System.out.println(name + "の攻撃");
+		System.out.println(attack + "のダメージを与えた");
+	}
+	
+	//抽象メソッド
+    public abstract void SpecialAttack();
+	
+}

@@ -1,0 +1,9 @@
+package AbstractClass;
+
+public class Kenja extends Character{
+	
+	public Kenja(String name, int attack) {
+		super(name, attack);
+	}
+	
+}

@@ -1,0 +1,12 @@
+package Sample;
+
+public class Sample2 extends JFrame{
+	public static void main(String[] args) {
+		Sample2 frame = new Sample2();
+	}
+	
+	public Sample2() {
+		
+	}
+	
+}

@@ -1,8 +1,0 @@
-package SampleAccesser;
-
-//同じパッケージに属する
-public class Accesser1{
-	public static void main(String[] args) {
-		
-	}
-}

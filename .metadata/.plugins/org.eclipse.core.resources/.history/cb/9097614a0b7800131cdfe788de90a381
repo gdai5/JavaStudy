@@ -1,0 +1,37 @@
+package Sample;
+
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Sample2 extends JFrame{
+	public static void main(String[] args) {
+		Sample2 frame = new Sample2();
+	}
+	
+	public Sample2() {
+		setTitle("自己紹介");
+		setBounds(100, 100, 500, 400);
+		//出現場所を真ん中にする
+		setLocationRelativeTo(null);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+	}
+	
+	private JPanel setItems() {
+		JPanel _itempane       = new JPanel();
+		//グリッドバックレイアウトを用いる
+		GridBagLayout gbl      = new GridBagLayout();
+		GridBagConstraints gbc = new GridBagConstraints();
+		//レイアウトの指定
+		_itempane.setLayout(gbl);
+		
+		
+		
+		
+		return _itempane;
+	}
+	
+}

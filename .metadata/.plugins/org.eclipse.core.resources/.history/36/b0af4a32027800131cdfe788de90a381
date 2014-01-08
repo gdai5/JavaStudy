@@ -1,0 +1,23 @@
+package Sample;
+
+import javax.swing.*;
+
+//あとは、ここに様々な要素を追加していく
+//目標：ボタン、フィールド、エリア（スクロール付き）、チェック、トグル、ドロップ
+public class Sample extends JFrame{
+	
+	public static void main(String[] args) {
+		Sample frame = new Sample();
+	}
+	
+	private Sample() {
+		setTitle("Sample");
+		setBounds(200, 200, 500, 400);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	}
+	
+	private JPanel setTextFeild(JFrame frame){
+		
+	}
+}

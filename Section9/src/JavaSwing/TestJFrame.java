@@ -1,0 +1,25 @@
+package JavaSwing;
+
+import java.awt.Container;
+import java.io.ObjectInputStream.GetField;
+
+import javax.swing.JFrame;
+
+public class TestJFrame {
+	public static void main(String[] args) {
+		//swingと呼ばれるライブラリを読み込まないとダメ
+		JFrame frame = new JFrame("タイトル");
+		
+		//フレーム大きさを横１００、縦２００に設定（単位はピクセル）
+		frame.setSize(500, 700);
+		
+		//別の表示方法で、出現場所＆フレームのサイズを決める
+		//frame.setBounds(200, 200, 500, 700);
+		
+		//通常状態では、Xボタンを押してもプログラムが終わらないので、終わるようにする
+		//frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		//フレーム自体は初期状態では見えない状態なので、それを見える状態に変えた
+		frame.setVisible(true);
+	}
+}

@@ -1,0 +1,12 @@
+package Sample;
+
+public class Sample2 {
+	public static void main(String[] args) {
+		Sample2 frame = new Sample2();
+	}
+	
+	public Sample2() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

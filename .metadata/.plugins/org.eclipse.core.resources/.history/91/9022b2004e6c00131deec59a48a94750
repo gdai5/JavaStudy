@@ -1,0 +1,21 @@
+package AbstractClass;
+
+public abstract class Character {
+	
+	public void Attack(String name, int attack) {
+		System.out.println(name + "の攻撃");
+		System.out.println(attack + "のダメージを与えた");
+	}
+	
+	//作ったキャラクターのステータス情報が全て出てくる
+	public void Status() {
+		System.out.println("名前：" + this.name);
+		System.out.println("HP：" + this.hp);
+		System.out.println("MP：" + this.mp);
+		System.out.println("AP：" + this.attack);
+		System.out.println("DP：" + this.diffence);
+	}
+	
+	//課題：hpとmpのゲッターとセッターを作成してください
+	
+}

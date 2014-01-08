@@ -1,0 +1,36 @@
+package Exception;
+
+public class DivideByZero2 {
+	static void a() {
+		b();
+	}
+	
+	static void b() {
+		c();
+	}
+	
+	static void c() {
+		d();
+	}
+	
+	static void d() {
+		int i = 1;
+		int j = 0;
+		System.out.println(i / j);
+	}
+	
+	//こちらには、例外処理を追加した
+	//これによって、正しくプログラムが動く
+	public static void main(String[] args) {
+		//tryで囲まれた領域内でエラーが発生したら、catchに移動する
+		try {
+			a();
+		}catch(ArithmeticException e){
+			System.out.println("例外が投げられます");
+			System.out.println(e);
+		}finally{
+			System.out.println("最後に実行されたよ！");
+		}
+		
+	}
+}

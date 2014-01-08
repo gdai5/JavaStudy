@@ -1,0 +1,14 @@
+package JavaSwing;
+
+import javax.swing.JFrame;
+
+public class TestJFrame {
+	public static void main(String[] args) {
+		//swingと呼ばれるライブラリを読み込まないとダメ
+		JFrame frame = new JFrame("タイトル");
+		//フレーム大きさを横１００、縦２００に設定（単位は忘れた）
+		frame.setSize(500, 700);
+		//フレーム自体は初期状態では見えない状態なので、それを見える状態に変えた
+		frame.setVisible(true);
+	}
+}

@@ -1,0 +1,9 @@
+package JavaSwing;
+
+import javax.swing.JFrame;
+
+//frameには、Pane(ペイン)と呼ばれる層がいくつも重なって見えている
+//このペインを何十にも重ねることで、望みのシステムを作っている
+public class TestPanel extends JFrame{
+
+}

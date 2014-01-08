@@ -32,4 +32,8 @@
 <fullyQualifiedTypeName name="GeterSeter.SampleGeterSeter"/>
 <fullyQualifiedTypeName name="Challenge.Character"/>
 <fullyQualifiedTypeName name="Challenge.Yuusya"/>
+<fullyQualifiedTypeName name="OverLoad.TestOverLoad"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="AbstractClass.Character"/>
+<fullyQualifiedTypeName name="AbstractClass.Yuusya"/>
 </qualifiedTypeNameHistroy>
